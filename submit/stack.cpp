@@ -101,12 +101,13 @@ int main()
 		x.push(temp);
 	}
 
+	int initialSize = x.Ssize();
 
-	for (int i = 0; i < x.Ssize(); i++) {
+	for (int i = 0; i < initialSize; i++) {
 	
-	 	cout << x.top() << '\n';
+	  	cout << x.top() << '\n';
 
-	 	x.pop();	
+	  	x.pop();	
 	}
 
 	return 0;
